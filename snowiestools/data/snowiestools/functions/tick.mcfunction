@@ -1,0 +1,15 @@
+execute as @a[tag=dwalk] at @s run setblock ~ ~-1 ~ diamond_block
+execute as @a[tag=dwalk] at @s run setblock ~1 ~-1 ~ diamond_block
+execute as @a[tag=dwalk] at @s run setblock ~-1 ~-1 ~ diamond_block
+execute as @a[tag=dwalk] at @s run setblock ~ ~-1 ~1 diamond_block
+execute as @a[tag=dwalk] at @s run setblock ~ ~-1 ~-1 diamond_block
+execute as @a[tag=dwalk] at @s run setblock ~ ~1 ~ air
+execute as @a[tag=dwalk] at @s run setblock ~ ~ ~ air
+execute as @a[tag=dwalk] at @s run setblock ~1 ~1 ~ air
+execute as @a[tag=dwalk] at @s run setblock ~1 ~ ~ air
+execute as @a[tag=dwalk] at @s run setblock ~ ~1 ~1 air
+execute as @a[tag=dwalk] at @s run setblock ~ ~ ~1 air
+execute as @a[tag=dwalk] at @s run setblock ~-1 ~1 ~ air
+execute as @a[tag=dwalk] at @s run setblock ~-1 ~ ~ air
+execute as @a[tag=dwalk] at @s run setblock ~ ~1 ~-1 air
+execute as @a[tag=dwalk] at @s run setblock ~ ~ ~-1 air
